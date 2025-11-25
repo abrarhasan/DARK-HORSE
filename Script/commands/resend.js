@@ -5,7 +5,7 @@ const axios = require("axios");
 module.exports.config = {
  name: "resend",
  version: "2.0.0",
- hasPermssion: 0,
+ hasPermssion: 1,
  credits: "CYBER ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝐀𝐌_ ☢️",
  description: "Auto resend removed messages",
  commandCategory: "general",
