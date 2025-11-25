@@ -64,7 +64,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ╰───────⭓
 
 ❤️ 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 🌺
- 😍─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭😘`;
+ 😍─꯭─⃝‌‌ABRAR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭😘`;
 
  const imgLinks = ["https://i.imgur.com/L5fGnYX.jpeg","https://i.imgur.com/mAifBNb.jpeg","https://i.imgur.com/Lf028tD.jpeg","https://i.imgur.com/CdzNRud.jpeg"
  ];
