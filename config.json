@@ -1,5 +1,5 @@
 {
-  "Author": "SHAHADAT SAHU",
+  "Author": "ABRAR",
   "version": "2.0.0",
   "language": "en",
   "DeveloperMode": false,
@@ -8,19 +8,19 @@
   "allowInbox": false,
   "notiGroup": true,
   "NOTIFICATION": true,
-  "EMAIL": "your email",
-  "PASSWORD": "your password",
+  "EMAIL": "abrarhasanaadil23404107@gmail.com",
+  "PASSWORD": "abrâr-häsàñ-æãdïl",
   "OTPKEY": "",
-  "BOTNAME": "─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭",
-  "PREFIX": "/",
+  "BOTNAME": "ABRAR-BOT💀",
+  "PREFIX": "+",
   "reactUnsend": ["😡", "🤧", "😤", "😠"],
 
   "ADMINBOT": [
-    "100001039692046",
-    "100001039692046",
-    "100001039692046"
+    "100065524890378",
+    "",
+    ""
   ],
-  "NDH": ["100001039692046"],
+  "NDH": ["100065524890378"],
   "adminOnly": false,
   "ndhOnly": false,
   "adminPaOnly": false,
