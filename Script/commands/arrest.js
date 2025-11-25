@@ -98,7 +98,7 @@ module.exports.run = async function ({ event, api, args }) {
  const { threadID, messageID, senderID } = event;
 
  if (!event.mentions || Object.keys(event.mentions).length === 0)
- return api.sendMessage("বলদ একজনকে ট্যাগ করতে হবে 🌚🌝", threadID, messageID);
+ return api.sendMessage("Please tag the one that uh want me to arrest🌚🌝", threadID, messageID);
 
  var mention = Object.keys(event.mentions)[0];
  let tag = event.mentions[mention].replace("@", "");
@@ -106,7 +106,7 @@ module.exports.run = async function ({ event, api, args }) {
 
  return makeImage({ one, two }).then(path =>
  api.sendMessage({
- body: `হালা মুরগী চোর তোরে আজকে হাতে নাতে ধরছি পালাবি কই 😹🕵️‍♂️\n=> ${tag}`,
+ body: `Chicken chor, I caught uh 😹🕵️‍♂️\n=> ${tag}`,
  mentions: [{
  tag: tag,
  id: mention
