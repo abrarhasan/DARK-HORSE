@@ -63,24 +63,14 @@ async function circle(image) {
   return await image.getBufferAsync("image/png");
 }
 
-const crushCaptions = [
-  "প্রেমে যদি অপূর্ণতাই সুন্দর হয়, তবে পূর্ণতার সৌন্দর্য কোথায়?❤️",
-  "যদি বৃষ্টি হতাম… তোমার দৃষ্টি ছুঁয়ে দিতাম! চোখে জমা বিষাদটুকু এক নিমেষে ধুয়ে দিতাম🤗",
-  "তোমার ভালোবাসার প্রতিচ্ছবি দেখেছি বারে বার💖",
-  "তোমার সাথে একটি দিন হতে পারে ভালো, কিন্তু তোমার সাথে সবগুলি দিন হতে পারে ভালোবাসা🌸",
-  "এক বছর নয়, কয়েক জন্ম শুধু তোমার প্রেমে পরতে পরতে ই চলে যাবে😍",
-  "কেমন করে এই মনটা দেব তোমাকে… বেসেছি যাকে ভালো আমি, মন দিয়েছি তাকে🫶",
-  "পিছু পিছু ঘুরলে কি আর প্রেম হয়ে যায়… কাছে এসে বাসলে ভালো, মন পাওয়া যায়❤️‍🩹",
-  "তুমি থাকলে নিজেকে এমন সুখী মনে হয়, যেনো আমার জীবনে কোনো দুঃখই নেই😊",
-  "তোমার হাতটা ধরতে পারলে মনে হয় পুরো পৃথিবীটা ধরে আছি🥰",
-  "তোমার প্রতি ভালো লাগা যেনো প্রতিনিয়ত বেড়েই চলছে😘"
+const crushCaptions = ["If incompleteness is beautiful in love, then where is the beauty of completeness?❤️","If I were rain… I would touch your gaze! I would wash away the sadness gathered in your eyes in a moment🤗","I have seen the reflection of your love again and again💖","A single day with you may be good, but all my days with you could become love🌸","Not just one year, several lifetimes would pass by falling in love with only you😍","How can I give this heart to you… the one I love, I have already given my heart to🫶","Does following someone around become love… come close and stay with me, then the heart can be won❤️‍🩹","When you are with me, I feel so happy, as if there is no sorrow in my life😊","When I can hold your hand, it feels like I am holding the entire world🥰","My liking for you seems to be increasing every single day😘"
 ];
 
 module.exports.run = async function ({ event, api, args }) {
   const fs = global.nodemodule["fs-extra"];
   const { threadID, messageID, senderID } = event;
   const mention = Object.keys(event.mentions);
-  if (!mention[0]) return api.sendMessage("একজনকে মেনশন করো!", threadID, messageID);
+  if (!mention[0]) return api.sendMessage("Please mention ur crush!", threadID, messageID);
   else {
     const one = senderID, two = mention[0];
     const caption = crushCaptions[Math.floor(Math.random() * crushCaptions.length)];
