@@ -12,25 +12,33 @@ module.exports.languages = {
   "en": {
     "invaildNumber": "❌ %1 is not a valid number",
     "cancelSuccess": "✅ Successfully rejected %1 group(s)!",
-    "notiBox1": "চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!😘",
+    "notiBox1": "BOT HAS BEEN CONNECTED SUCCESSFULLY.!😘",
     "notiBox2": `╭•┄┅═══❁🌺❁═══┅┄•╮
-     আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ
+     Hi, I'm Mehrima!😘❤️ I'm here to assist you and entertain you providing different kinds of entertaining and beneficial features that you might enjoy a lot 🎉🥳
 ╰•┄┅═══❁🌺❁═══┅┄•╯
-
-𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐬𝐨 𝐦𝐮𝐜𝐡 𝐟𝐨𝐫 𝐚𝐝𝐝𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩! 🖤🤗
-𝐈 𝐰𝐢𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐬𝐞𝐫𝐯𝐞 𝐲𝐨𝐮 𝐢𝐧𝐬𝐡𝐚𝐀𝐥𝐥𝐚𝐡 🌺❤️
-
-𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭:
-${global.config.PREFIX}help
-${global.config.PREFIX}info
-${global.config.PREFIX}admin
-
-★ For any help or complaints, please contact admin ★
-➤ 𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://m.me/100001039692046
-➤ 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/8801882333052
-
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐬𝐨 𝐦𝐮𝐜𝐡 𝐟𝐨𝐫 𝐚𝐝𝐝𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 the-𝐠𝐫𝐨𝐮𝐩-🖤🤗\n\n☄️𝘽𝙊𝙏𝙉𝘼𝙈𝙀☄️ »» ABRAR-BOT💀\n🌸𝙋𝙍𝙀𝙁𝙄𝙓🌸  »» + «« \n🎉 Usage: +command\n💘To see available commands: +help (page number). Example: +help 2, +help 3, +help 16 etc
+\n𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝:
+${botPrefix}Help
+${botPrefix}Info
+${botPrefix}Admin
+\n ★ For any help:★
+\n\n┏━━━━━━━━━━━━━━━━━━━━━┓
+┃      🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
+┣━━━━━━━━━━━━━━━━━━━━━┫
+┃ 👤 𝐍𝐚𝐦𝐞      : ABRAR HASANッ
+┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫    : 𝐌𝐚𝐥𝐞
+┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : SINGLE 
+┃ 🎂 𝐀𝐠𝐞       : 22
+┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : 𝐈𝐬𝐥𝐚𝐦
+┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : ..........
+┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
+┣━━━━━━━━━━━━━━━━━━━━━┫
+┃ 🎭 Instagram  : abrar.hasan.125760 
+┃ 📢 Messenger : https://m.me/abrar.hasan.125760550
+┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/abrar.hasan.125760550
+┣━━━━━━━━━━━━━━━━━━━━━┫ 
 ❖⋆═══════════════════════⋆❖
-      𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓`,
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ ABRAR HASAN`,
     "approveSuccess": "✅ Successfully approved %1 group(s)!",
     "cantGetPendingList": "❌ Failed to retrieve pending list!",
     "returnListPending": "📝 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 𝗟𝗜𝗦𝗧\n\nTotal groups awaiting approval: %1\n\n%2\n\nReply with the number(s) to approve or 'c' followed by number(s) to reject (e.g., 1 2 3 or c1 c2)",
