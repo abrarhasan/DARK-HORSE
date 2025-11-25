@@ -60,9 +60,9 @@ module.exports.run = async function ({ api, event, args }) {
  "║ 🤝 𝟭𝟵. 𝗙𝗿𝗶𝗲𝗻𝗱𝘀 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
  "║ 🏏 𝟮𝟬. 𝗖𝗿𝗶𝗰𝗸𝗲𝘁 𝗩𝗶𝗱𝗲𝗼 🐤\n" +
  "╠══════════════════════╣\n" +
- "║ 🔰আপনি যে ক্যাটাগরির ভিডিও\n" +
- "║ দেখতে চান সেটির নাম্বার লিখুন!\n" +
- "║ ◀️ উদাহরণস্বরূপ: 11\n" +
+ "║ 🔰Please type the categorie\n" +
+ "║ that uh want to watch!\n" +
+ "║ ◀️ Example: 11\n" +
  "╚══════════════════════╝";
 
  await api.sendMessage(
