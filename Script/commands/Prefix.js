@@ -2,7 +2,7 @@ module.exports.config = {
   name: "prefix",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: "Shahadat SAHU",
+  credits: "Abrar",
   description: "Display the bot's prefix and owner info",
   commandCategory: "Information",
   usages: "",
@@ -24,7 +24,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     "how to use bot", "bot not working", "bot is offline", "prefx", "prfix",
     "perfix", "bot not talking", "where is bot", "bot dead", "bots dead",
     "dấu lệnh", "daulenh", "what prefix", "freefix", "what is bot", "what prefix bot",
-    "how use bot", "where are the bots", "where prefix"
+    "how use bot", "where are the bot", "where prefix"
   ];
 
   let lowerBody = body.toLowerCase();
@@ -34,10 +34,10 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 　　　『 𝐏𝐑𝐄𝐅𝐈𝐗 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 』
 🌟━━━━━━━━━━━━━━━━━🌟
 『 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 』
-
 ➤ 𝗕𝗼𝘁 𝗽𝗿𝗲𝗳𝗶𝘅 : [ ${prefix} ]
-➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐓
-➤ 𝗕𝗼𝘁 𝗔𝗱𝗺𝗶𝗻 : 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓
+➤ Usage: +helpall
+➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌Abrar 𝐂𝐡𝐚𝐭 𝐁𝐨𝐓
+➤ 𝗕𝗼𝘁 𝗔𝗱𝗺𝗶𝗻 : ABRAR HASAN
 
 『 𝐁𝐎𝐗 𝐈𝐍𝐅𝐎 』
 
@@ -47,10 +47,10 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 
 『 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎 』
 
-➤ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
-➤ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸    : www.facebook.com/100001039692046
-➤ 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿  : m.me/100001039692046
-➤ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽    : https://wa.me/+8801882333052
+➤ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ABRAR HASAN
+➤ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸    : https://www.facebook.com/abrar.hasan.125760550
+➤ 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿  : https://m.me/abrar.hasan.125760550
+➤ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽    :..........
 
 🌟━━━━━━━━━━━━━━━━━🌟
 　　　　𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴!
