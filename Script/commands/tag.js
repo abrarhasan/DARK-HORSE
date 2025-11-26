@@ -1,7 +1,7 @@
 module.exports.config = {
  name: "tag",
  version: "1.0.0",
- hasPermssion: 2,
+ hasPermssion: 1,
  credits: "Shahadat Islam",
  description: "Group এ সবাইকে নির্দিষ্ট সংখ্যায় মেনশন পাঠানো",
  commandCategory: "group",
@@ -22,7 +22,7 @@ module.exports.run = async ({ api, event, args }) => {
 
  for (let i = 0; i < repeatCount; i++) {
  await api.sendMessage({
- body: `📢 @everyone\nসবাই চিপা থেকে বের হও 🐸`,
+ body: `📢 @everyone\nCome out from ur upcoming ex's liebox🐸`,
  mentions
  }, threadID);
 
