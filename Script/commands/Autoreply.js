@@ -49,7 +49,12 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "boda": "ভাই তুই এত হাসিস না..!🌚🤣",
     "love you": "HOW MUCH DEAR?😘",
     "kire ki koros": "তোমার কথা ভাবতে ছি জানু",
-    "oi bot": "han shuna, Say say😘😽🙈"
+    "oi bot": "han shuna, Say say😘😽🙈",
+    "@Mehrimä Súltâñ Mehrîñ" : "Yes Baby, Hi hi, I'm here.😁😘",
+    "good night everyone" : " Goodnight Dear! Have a good horror mix dream 🤪🤪.",
+   "good evening" : "Good Evening too dear!, How was your day?",
+    "good afternoon" : "Good Afternoon too dear! How's your days are going on?",
+    "good morning" : "Good morning too 💖🥰, Have a nice day dear!"
   };
 
   if (responses[msg]) {
