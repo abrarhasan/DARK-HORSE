@@ -2,7 +2,7 @@ module.exports.config = {
  name: "birthday",
  version: "1.0.0",
  hasPermssion: 2,
- credits: "Shahadat SAHU",
+ credits: "Abrar",
  description: "মেনশন করলে শুভেচ্ছা জানাবে",
  commandCategory: "group",
  usages: "[@মেনশন]",
@@ -16,7 +16,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, event, args }) {
  try {
  if (Object.keys(event.mentions).length === 0) {
- return api.sendMessage("আপনি কাকে শুভেচ্ছা জানাতে চান এমন একজন কে মেনশন করুন!😘", event.threadID);
+ return api.sendMessage("Please mention the one that uh want me to wish😘", event.threadID);
  }
 
  const mention = Object.keys(event.mentions)[0];
@@ -28,19 +28,19 @@ module.exports.run = async function ({ api, event, args }) {
  };
 
  
- sendMessage(`বস শাহাদাৎ সাহু'র পক্ষ থেকে তোমাকে জন্মদিনের শুভেচ্ছা, @${name}!\n🎉HAPPY BIRTHDAY🎉`);
+ sendMessage(`HAPPY BIRTHDAY ON BEHALFOF MY BOSS ABRAR HASAN, Dear @${name}!\n🎉HAPPY BIRTHDAY🎉`);
  const messages = [
- { delay: 3000, msg: `আরো একটি বছর করলে তুমি পার। সুস্থ থাকো, ভালো থাকো এই কামনাই করি বার বার!\n🥰শুভ জন্মদিন🥰 @${name}` },
- { delay: 6000, msg: `আনন্দ উল্লাসে কাটে যেন তোমার প্রতিটি দিন, শুভেচ্ছা জানাই আজ তোমায়!\n🥰শুভ জন্মদিন😍 @${name}` },
- { delay: 10000, msg: `জন্মদিনে শুভেচ্ছা নিও প্রিও~\nযদিও বিলম্বিত, বার্থডে ট্রিট পেলে বৎস হবো বড় প্রীত!\n🌼শুভ জন্মদিন🌼 @${name}` },
- { delay: 14000, msg: `আজ জন্মদিনে আনন্দ ও সুন্দর মুহুর্তে ভরে উঠুক এই কামনাই করি ...শুভ জন্মদিন @${name}` },
- { delay: 18000, msg: `ফুলে হাঁসিতে প্রাণের খুশিতে, অলিরা গানে গানে ফুলের কানে কানে, বলছে আজ সেই শুভ দিন।\n❦~শুভ জন্মদিন~❦ @${name}` },
- { delay: 22000, msg: `কামনা করি তুমি যেন পৃথিবীর সব সুখ আস্বাদন করতে পারো।\nশুভ জন্মদিন @${name}` },
- { delay: 26000, msg: `শুভ হোক তোমার আগামী দিন।💖\nতোমার এই মুখের হাসি যেন সারাজীবন এমনি থাকুক, হ্যাপি বার্থডে☺️ @${name}` },
- { delay: 30000, msg: `জন্মদিনের শুভেচ্ছা নিও প্রিয় @${name}!🎂\nতোমার পথ চলা হোক আনন্দের, ভালোবাসার ও সাফল্যের।` },
+ { delay: 3000, msg: `If you continue for one more year, you will achieve it.Stay healthy and stay well — this is my heartfelt wish for you again and again.🥰 Happy Birthday 🥰🥰 @${name}` },
+ { delay: 6000, msg: `Wishing you a wonderful year filled with love, joy, and new achievements—.!\n🥰Happy Birthday😍 @${name}` },
+ { delay: 10000, msg: `May your special day bring peace, happiness, and countless blessings that stay with you always—.!\n🌼Happy Birthday🌼 @${name}` },
+ { delay: 14000, msg: `May every chapter of your life guide you toward success, wisdom, and brighter days.Happy Birthday @${name}` },
+ { delay: 18000, msg: `Wishing you good health, inner peace, and the courage to follow your dreams fearlessly.\n❦~Happy Birthday~❦ @${name}` },
+ { delay: 22000, msg: `May the coming year bring meaningful experiences, loving connections, and beautiful opportunities—\nশুভ জন্মদিন @${name}` },
+ { delay: 26000, msg: `May your life be filled with positivity, strength, and moments that make your heart smile—, Happy Birthday☺️ @${name}` },
+ { delay: 30000, msg: `DEAR @${name}!🎂\nWishing you a day where your heart finds peace, your soul feels loved, and your dreams begin to grow।Happy Birthday` },
  { delay: 34000, msg: `many many happy returns of the day 🥰😘\n Happy Birthday🎂 @${name}` },
- { delay: 38000, msg: `মন থেকে দোয়া করি‌ সব‌ সময় সুখে থাকো ভালো থাকো 🥰 \nশুভ জন্মদিন @${name}!` },
- { delay: 42000, msg: `সবশেষে একটাই প্রত্যাশা সবসময় পাশে আছি ইনশাল্লাহ পাশে পাব🥰😘 @${name}` }
+ { delay: 38000, msg: `May this day remind you how special you are and how many wonderful things await you ahead— 🥰 \nHappy Birthday @${name}!` },
+ { delay: 42000, msg: `May happiness surround you, success follow you, and every step bring you closer to your goals—. Happy Birthday🥰😘 @${name}` }
  ];
 
  messages.forEach(({delay, msg}) => {
@@ -49,6 +49,6 @@ module.exports.run = async function ({ api, event, args }) {
 
  } catch (error) {
  console.error(error);
- api.sendMessage("বার্তা পাঠাতে সমস্যা হয়েছে!\nদয়া করে আবার চেষ্টা করুন!", event.threadID);
+ api.sendMessage("Something went wrong, I couldnot wish!\nPlease try again!", event.threadID);
  }
 };
