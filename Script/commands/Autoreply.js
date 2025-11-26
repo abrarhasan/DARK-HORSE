@@ -27,7 +27,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "fuck": "SAME TO YOU😊",
     "pro": "Khud k0o KYa LeGend SmJhTi Hai 😂",
     "good morning": "GOOD MORNING too baby, brush ur teeth😚",
-    "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
+    "bot": "~ Yes hi dear, say say??😘☺️🤖",
     "abrar": "Boss is busy now, uh can tell me..!😘",
     "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ABRAR HASAN☜\nFacebook: https://www.facebook.com/abrar.hasan.125760550",
     "admin": "He is ABRAR HASAN, He is known as worldwide trusthworthy GOODBOY😘☺️",
