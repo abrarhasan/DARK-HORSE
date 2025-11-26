@@ -2,7 +2,7 @@ module.exports.config = {
   name: "boxadmin",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
+  credits: "abrar",
   description: "Add/remove admin via me, mention, or reply",
   commandCategory: "system",
   usages: "boxadmin me | boxadmin add/remove @mention | reply",
@@ -43,7 +43,7 @@ module.exports.run = async function({ api, event, args }) {
 
     const userInfo = await api.getUserInfo([uid, event.senderID]);
     
-    const senderName = cleanName(userInfo[event.senderID]?.name) || "আপনি";
+    const senderName = cleanName(userInfo[event.senderID]?.name) || "YOU";
     
     if (event.mentions && Object.keys(event.mentions).length > 0) {
       targetName = cleanName(Object.values(event.mentions)[0]);
@@ -60,27 +60,27 @@ module.exports.run = async function({ api, event, args }) {
     const targetIsAdmin = threadInfo.adminIDs.some(admin => admin.id == uid);
 
     if (!botIsAdmin && uid !== event.senderID) 
-      return api.sendMessage("এই কমান্ডটি Usage  করার জন্য আগে আমাকে গ্রুপের এডমিন দিতে হবে 🌺", threadID, event.messageID);
+      return api.sendMessage("Please make me admin to make admin the one that uh mention 🌺", threadID, event.messageID);
 
     if (action === "add") {
       if (targetIsAdmin) 
-        return api.sendMessage(`${targetName} আগে থেকেই গ্রুপের এডমিন রয়েছেন ✅`, threadID, event.messageID);
+        return api.sendMessage(`${targetName} is already an admin✅`, threadID, event.messageID);
 
       await api.changeAdminStatus(threadID, uid, true);
       if (uid === event.senderID) 
-        return api.sendMessage(`✅ ${senderName} নিজেকে এডমিন বানিয়েছে! 🌸`, threadID, event.messageID);
+        return api.sendMessage(`✅ ${senderName} has made admin ownself! 🌸`, threadID, event.messageID);
       else 
-        return api.sendMessage(`✅ ${senderName} ${targetName}-কে এডমিন বানিয়েছে! 😘`, threadID, event.messageID);
+        return api.sendMessage(`✅ ${senderName} ha made ${targetName}- an admin! 😘`, threadID, event.messageID);
 
     } else if (action === "remove") {
       if (!targetIsAdmin) 
-        return api.sendMessage(`${targetName} এখনো গ্রুপের এডমিন নয়! ❌`, threadID, event.messageID);
+        return api.sendMessage(`${targetName} is not admin yet! ❌`, threadID, event.messageID);
 
       await api.changeAdminStatus(threadID, uid, false);
       if (uid === event.senderID) 
-        return api.sendMessage(` ${senderName} নিজেকে এডমিন থেকে রিমুভ করেছে! 🐸`, threadID, event.messageID);
+        return api.sendMessage(` ${senderName} has resigned from administration. i mean has removed themselves from adminship! 🐸`, threadID, event.messageID);
       else 
-        return api.sendMessage(` ${targetName} কে এডমিন থেকে রিমুভ করেছে! 🤣`, threadID, event.messageID);
+        return api.sendMessage(` ${targetName} has been removed from adminship hhhh! 🤣`, threadID, event.messageID);
     }
 
   } catch (e) {
