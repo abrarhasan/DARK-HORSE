@@ -41,7 +41,7 @@ module.exports.run = async ({ api, event, args, Users }) => {
  try {
  await api.sendMessage(
  {
- body: `📢 নোটিশ From Admin: (${senderName})\n\n${replyMsg.body || args.join(" ")}`,
+ body: `📢 NOTICE From Admin: (${senderName})\n\n${replyMsg.body || args.join(" ")}`,
  attachment: fs.createReadStream(filePath),
  },
  threadID
@@ -71,7 +71,7 @@ module.exports.run = async ({ api, event, args, Users }) => {
  if (threadID != event.threadID) {
  try {
  await api.sendMessage(
- `📢 নোটিশ (${senderName}):\n${noticeText}`,
+ `📢 NOTICE (${senderName}):\n${noticeText}`,
  threadID
  );
  successCount++;
