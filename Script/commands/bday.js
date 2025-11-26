@@ -2,7 +2,7 @@ module.exports.config = {
  name: "bday",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "ULLASH and SAHU ",
+ credits: "ABRAR ",
  description: "See admin's birthday",
  usePrefix: false,
  commandCategory: "bday",
@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event }) => {
 
  if (diffDays === 1) {
  const tomorrowMessage =
-`👉Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!\n অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল!\n\n উইশ করতে ভুলবে না কিন্তু...🥰😘
+`👉Tomorrow is myboss ABRAR HASAN's birthday!\n\n Dont forget to wish him with a gift...🥰😘
 `;
  return api.sendMessage(tomorrowMessage, event.threadID, event.messageID);
  }
@@ -33,39 +33,39 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays === 0) {
  const happyBirthdayMessage = 
 `╔═══ 🎉 𝐇𝐀𝐏𝐏𝐘 𝐁𝐈𝐑𝐓𝐇𝐃𝐀𝐘 🎉 ════╗
-║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔 💖 
+║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - ABRAR HASAN 💖 
 ╟─────────────────
 ║ 🎂 Everyone Please Wish Him Today! 
-║ 🥳 আজ আমাদের Boss এর জন্মদিন! 
-║ ❤️ মন থেকে উইশ করো সবাই! 
+║ 🥳 Its his birth day! 
+║ ❤️ Wish him with a gift hehe! 
 ╟─────────────────
 ║ 📩 Connect With Him: 
 ║ ➤ 📘 Facebook : 
-║ www.facebook.com/61575698041722 
+║ https://www.facebook.com/abrar.hasan.125760550
 ║ ➤ 💬 Messenger : 
-║ m.me/61575698041722 
+║ https://m.me/abrar.hasan.125760550
 ║ ➤ 📱 WhatsApp : 
-║ https://wa.me/+8801882333052 
+║.......................... 
 ╟─────────────────
-║ 🫶 উইশ করো, দোয়া করো?
-║ এবং ভালোবাসা জানাও প্রিয় বস সাহুকে! ❤️‍🩹 
-╚═════════════════════════╝`;
+║ 🫶 WISH, PRAY FOR HIM AND FOR EVERYONE?
+║ THANKS IN ADVANCED! ❤️‍🩹 
+╚═══════════════════════════╝`;
  return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
  }
 
  if (diffDays < 0) {
  const leakMessage =
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
-║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
+║ 🎂 Admin ABRAR HASAN
+║ His birthday has been revealed ❤️‍🩹🤌
 ╚═══════════════════╝`;
  return api.sendMessage(leakMessage, event.threadID, event.messageID);
  }
 
  const countdownMessage = 
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
-║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
+║ 🎂 Admin ABRAR HASAN
+║ His birthday has been revealed ❤️‍🩹�
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
 ║ ⏰ Hours : ${diffHours}
@@ -73,7 +73,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
- const url = `https://graph.facebook.com/61575698041722/picture?height=720&width=720`;
+ const url = `https://graph.facebook.com/100065524890378/picture?height=720&width=720`;
 
  try {
  const response = await axios({
