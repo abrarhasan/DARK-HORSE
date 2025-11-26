@@ -2,7 +2,7 @@ module.exports.config = {
  name: "bf",
  version: "7.3.1",
  hasPermssion: 0,
- credits: "SA HU", 
+ credits: "ABRAR", 
  description: "Get Pair From Mention",
  commandCategory: "img",
  usages: "[@mention]",
@@ -72,11 +72,11 @@ module.exports.run = async function ({ event, api, args }) {
  const one = senderID, two = mention[0];
  return makeImage({ one, two }).then(path => api.sendMessage({
  body: "╔═════❖••° °••❖═════╗\n" +
- " ভালোবাসার সেরা জুটি 💘\n" +
+ " BEST COUPLE EVER💘\n" +
  "╚═════❖••° °••❖═════╝\n\n" +
  " ✶⊶⊷⊷⊷⊷❍⊶⊷⊷⊷⊷✶\n" +
- " 👑 এই নে! এখন থেকে শুধু তোরই ❤️\n" +
- " 💌 তোর একমাত্র বয়ফ্রেন্ড হাজির 🩷\n" +
+ " 👑 TAKE UR PARTNER! Its only urs now ❤️\n" +
+ " 💌 Ur one and only boyfriend is here 🩷\n" +
  " ✶⊶⊷⊷⊷⊷❍⊶⊷⊷⊷⊷✶",
  attachment: fs.createReadStream(path)
  }, threadID, () => fs.unlinkSync(path), messageID));
