@@ -8,14 +8,14 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Islamick Cyber Chat ",
   description: "ফোন ওয়ালপেপার",
-  usages: "wallpaper [নাম]",
+  usages: "+wallpaper [name]",
   commandCategory: "user",
   cooldowns: 5
 };
 
 module.exports.run = async ({ api, event, args }) => {
   if (args.length === 0) {
-    api.sendMessage("ছবি অনুসন্ধান করার জন্য একটি নাম প্রদান করুন.🌸", event.threadID, event.messageID);
+    api.sendMessage("Give the image name that uh want me ro search.🌸", event.threadID, event.messageID);
     return;
   }
 
@@ -32,7 +32,7 @@ module.exports.run = async ({ api, event, args }) => {
     });
 
     if (wallpapers.length === 0) {
-      api.sendMessage("প্রদত্ত প্রশ্নের জন্য কোন ওয়ালপেপার পাওয়া যায়নি.❌", event.threadID, event.messageID);
+      api.sendMessage("I could not find any wellpaper with ur given name.❌", event.threadID, event.messageID);
       return;
     }
 
@@ -73,7 +73,7 @@ module.exports.run = async ({ api, event, args }) => {
 
     if (streams.length > 0) {
       let msg = {
-        body: `📷 আপনার ওয়ালপেপার 🌸`,
+        body: `📷 Here is ur wallpaper 🌸`,
         attachment: streams
       };
 
