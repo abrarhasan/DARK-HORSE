@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require('fs')
 const baseApiUrl = async () => {
   const base = await axios.get(
-`https://noobs-api.rf.gd/dipto`,
+`https://github.com/abrarhasan/DARK-HORSE/blob/main/AbrarApi.json`,
   );
   return base.data.api;
 };
