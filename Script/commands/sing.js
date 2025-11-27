@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require('fs')
 const baseApiUrl = async () => {
   const base = await axios.get(
-`https://raw.githubusercontent.com/cyber-ullash/cyber-ullash/refs/heads/main/UllashApi.json`,
+`https://noobs-api.rf.gd/dipto`,
   );
   return base.data.api;
 };
