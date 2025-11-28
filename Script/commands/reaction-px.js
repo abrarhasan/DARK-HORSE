@@ -1,10 +1,10 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "/",
+  name: "+",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "Islamick Cyber Chat", 
-  description: "prefix awto reaction",
+  description: "prefix auto reaction",
   commandCategory: "No command marks needed",
   usages: "prefix reaction",
     cooldowns: 5, 
