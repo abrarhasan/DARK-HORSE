@@ -1,7 +1,7 @@
 module.exports.config = {
  name: "autoreact",
  version: "1.1.1",
- hasPermission: 0,
+ hasPermission: 2,
  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
  description: "Bot React",
  commandCategory: "No Prefix",
