@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "ar",
+  name: "translate2",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "Islamick Chat",
