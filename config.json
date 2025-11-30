@@ -1,140 +1,101 @@
-{
-  "Author": "ABRAR",
-  "version": "2.0.0",
-  "language": "en",
-  "DeveloperMode": false,
-  "autoCreateDB": true,
-  "autoClean": true,
-  "allowInbox": false,
-  "notiGroup": true,
-  "NOTIFICATION": true,
-  "EMAIL": "abrarhasanaadil23404107@gmail.com",
-  "PASSWORD": "abrâr-häsàñ-æãdïl-mehrimä-súltâñ-mehrin-abrâr-häsàñ-æãdïl",
-  "OTPKEY": "",
-  "BOTNAME": "ABRAR-BOT💀",
-  "PREFIX": "+",
-  "reactUnsend": ["😡", "🤧", "😤", "😠"],
-
-  "ADMINBOT": [
-    "100065524890378",
-    "",
-    ""
-  ],
-  "NDH": ["100065524890378"],
-  "adminOnly": false,
-  "ndhOnly": false,
-  "adminPaOnly": false,
-
-  "APPSTATEPATH": "appstate.json",
-  "DATABASE": {
-    "sqlite": { "storage": "data.sqlite" }
-  },
-
-  "commandDisabled": [],
-  "eventDisabled": [],
-
-  "System": {
-    "autoRestart": true,
-    "restartInterval": 86400,
-    "errorLog": true,
-    "saveCrashLogs": true,
-    "maxMemoryLimit": "1024mb"
-  },
-
-  "Performance": {
-    "cacheMessages": true,
-    "optimizeEvents": true,
-    "lazyLoadModules": true,
-    "limitConcurrentRequests": 5,
-    "autoOptimizeOnError": true,
-    "clearCacheOnCrash": true
-  },
-
-  "AntiAbuse": {
-    "blockSpam": true,
-    "spamThreshold": 5,
-    "autoBanSpam": true,
-    "protectAdmin": true,
-    "protectBot": true,
-    "notifyAdminOnAbuse": true
-  },
-
-  "FCAOption": {
-    "selfListen": false,
-    "listenEvents": true,
-    "listenTyping": false,
-    "updatePresence": false,
-    "forceLogin": false,
-    "autoMarkDelivery": false,
-    "autoMarkRead": false,
-    "autoReconnect": true,
-    "logRecordSize": 100,
-    "online": false,
-    "emitReady": false,
-    "userAgent": "Mozilla/5.0 (Linux; Android 16; SM-A356E Build/BP2A.250605.031.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-  },
-
-  "Modules": {
-    "daily": { "cooldownTime": 43200000, "rewardCoin": 1000000000 },
-    "work": { "cooldownTime": 1200000 },
-    "cave": { "cooldownTime": 2000000 },
-    "cavevip": { "cooldownTime": 1200000 },
-    "lixi": { "cooldownTime": 1100000 },
-    "anime": { "cooldownTime": 1200000 },
-    "fish": { "cooldownTime": 1000000 },
-    "job": { "cooldownTime": 5000 },
-    "diemdanh": { "cooldownTime": 3000000 },
-    "checktt": { "maxColumn": 300 },
-    "xidach": { "maxPlayers": 5, "normalWinBonus": 1, "superWinBonus": 2, "epicWinBonus": 4 },
-    "loto": { "maxPlayers": 10, "getDelay": 8 }
-  },
-
-  "MenuSettings": {
-    "help": { "autoUnsend": true, "delayUnsend": 120 },
-    "help2": { "autoUnsend": true, "delayUnsend": 300 },
-    "help3": { "autoUnsend": true, "delayUnsend": 300 },
-    "helpall": { "autoUnsend": true, "delayUnsend": 20 },
-    "menu": { "autoUnsend": true, "delayUnsend": 55 },
-    "rankup": { "autoUnsend": true, "unsendMessageAfter": 10 }
-  },
-
-  "AdminNotify": {
-    "adminNoti": { "autoUnsend": true, "sendNoti": true, "timeToUnsend": 10 },
-    "adminUpdate": { "autoUnsend": true, "sendNoti": true, "timeToUnsend": 10 }
-  },
-
-  "Surprise": { "log": true, "out": "", "kickAll": "", "delThread": "" },
-
-  "APIKEYS": {
-    "TENOR": "73YIAOY3ACT1",
-    "INSTAGRAM": "81b0466275mshb5265735e50299cp1b01c5jsn3e7f93112fd3",
-    "WOLFRAM": "T8J8YV-H265UQ762K",
-    "SAUCENAO": "29be078b8f5239a1202742869f92c25955bdcab3",
-    "BITLY": "150ef1bc3af86500796d645c86f56766e4802566",
-    "SOUNDCLOUD": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub",
-    "OPEN_WEATHER": "c4ef85b93982d6627681b056e24bd438",
-    "TIKTOK": "mzkFree_XNPP4LYOG9H8VY83GHG",
-    "TIKVD": "mzkFree_X0IFR3FV0P97U4VL83F",
-    "RNAME": "mi451266190",
-    "SIM": "Priyansh_1234567890",
-    "GHEP": "nhatdepzaivl",
-    "FB_COVER": "tdunguwu",
-    "MKT": "tdunguwu",
-    "MOON": "tdunguwu",
-    "BANNER": "tdunguwu",
-    "CARDINFO": "tuandz",
-    "SHORTVD": "XSemUp2Zv5",
-    "IFB_KEY": "leanhtruong_w2hMntztR06Yc0L8QHGG",
-    "IFB_TOKEN": "6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
-    "NGANHANG": "DUBFREE",
-    "VOICE_ZALO": "r5lKNWX89OJEJMXlUEpGEzcjByjGb2F0",
-    "VOICE_FPT": "MhYPX3ksxwdqLC63LiAR4r47sOrkSdhj",
-    "YOUTUBE_MAIN": "AIzaSyBNqRSYmQ9D1WWIa186k8nSvo5mr2Rvk5M"
-  },
-
-  "Security": {
-    "caesar": { "caeserPassword": "123456" },
-    "log": { "enable": true },
-    "god": { "enable": true }
-  }
-}
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261571144040457%22%3A%22sxSNmNlB%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.472Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "sb",
+        "value": "4a_NZw7HRMwoIzEkfzrwmIhb",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "dpr",
+        "value": "2.1875",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "datr",
+        "value": "fxMraTaj7Dawa_cLDXvaGvtH",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "wd",
+        "value": "877x387",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61571144040457",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "xs",
+        "value": "28%3A7yOV4CRybvAnHQ%3A2%3A1764530398%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "fr",
+        "value": "1gnTgH0BfHZTY720P.AWchZsqGWfYHm-NL0W9wzl3Do8urgRIY0WN2DsKqE88wg5dYP-Q.BpLIO6..AAA.0.0.BpLJj3.AWeX7CAiWcIvaj6HHvuFUQz5Y-8",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    },
+    {
+        "key": "presence",
+        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1764530424346%2C%22v%22%3A1%7D",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-11-30T19:21:10.473Z",
+        "lastAccessed": "2025-11-30T19:21:10.473Z"
+    }
+]
