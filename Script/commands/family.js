@@ -73,6 +73,8 @@ module.exports.run = async ({ event, api, args }) => {
       var dtich = xbground*(ybground-tds);
       var dtichtv = Math.floor(dtich/idtv.length);
       var s = Math.floor(Math.sqrt(dtichtv));
+      mode += " (Auto size)"
+    };
         //===============================
     var l =     parseInt(s/15),//lines
         x =     parseInt(l),//
