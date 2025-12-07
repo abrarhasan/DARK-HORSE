@@ -10,7 +10,7 @@ if (!fs.existsSync(statusPath)) {
 module.exports.config = {
  name: "text",
  version: "1.0.5",
- hasPermssion: 2,
+ hasPermssion: 0,
  credits: "—͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
  description: "Send text every 5 seconds, with OFF switch",
  commandCategory: "utility",
