@@ -21,7 +21,7 @@ module.exports.languages = {
 𝐈 𝐰𝐢𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐬𝐞𝐫𝐯𝐞 𝐲𝐨𝐮 🌺❤️
 
 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭:
-${global.config.PREFIX}help
+${global.config.PREFIX}helpall
 ${global.config.PREFIX}info
 ${global.config.PREFIX}admin
 
