@@ -82,12 +82,12 @@ module.exports.handleEvent = async ({ api, event }) => {
 
  writer.on('error', (err) => {
  console.error("Error writing file:", err);
- api.sendMessage("ইমুজি দিয়ে লাভ নাই\nযাও মুড়ি খাও জান😘", threadID, messageID);
+ api.sendMessage("Hhhhh Dont send emoji, I am not gonna send my voice.\n Go and eat lipstick, Jaan😘", threadID, messageID);
  });
 
  } catch (error) {
  console.error("Error downloading audio:", error);
- api.sendMessage("ইমুজি দিয়ে লাভ নাই\nযাও মুড়ি খাও জান😘", threadID, messageID);
+ api.sendMessage("Hhhhh Dont send emoji, I am not gonna send my voice.\n Go and eat lipstick, Jaan😘 ", threadID, messageID);
  }
 };
 
