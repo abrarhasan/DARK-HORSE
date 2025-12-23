@@ -146,7 +146,7 @@ module.exports.run = async ({ event, api, args }) => {
         for (const name in fonts) {
             message += `   ⦿ ${name}\n`;
         }
-        message += "\n𝗨𝗦𝗔𝗚𝗘:\n\n   ⦿ /Artify [ASCII art name]\n    Example: /Artify luffy\n\n   ⦿ /Artify [font name] [text]\n    Example: /Artify mathsans\n    Artificial Intelligence";
+        message += "\n𝗨𝗦𝗔𝗚𝗘:\n\n   ⦿ +Artify [ASCII art name]\n    Example: +Artify luffy\n\n   ⦿ +Artify [font name] [text]\n    Example: +Artify mathsans\n    Artificial Intelligence";
         for (const name in fonts) {
         }
 
